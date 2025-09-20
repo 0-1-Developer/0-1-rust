@@ -1,0 +1,14 @@
+[workspace]
+members = [
+    "ch00_why_rust/a_hello_cargo",
+    "ch01_basics/a_types_demo",
+    "ch01_basics/b_control_flow",
+]
+resolver = "2"
+
+[workspace.package]
+edition = "2024"
+authors = ["Your Name"]
+
+[workspace.dependencies]
+# Common dependencies can be defined here
