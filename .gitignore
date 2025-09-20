@@ -1,0 +1,59 @@
+# Rust build artifacts
+target/
+**/*.rs.bk
+*.pdb
+
+# Executables
+*.exe
+*.dll
+*.so
+*.dylib
+
+# IDE/Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.cert
+
+# Local development files
+local/
+scratch/
+temp/
+tmp/
+
+# AI assistant files
+claude.md
+CLAUDE.md
+cloud.md
+CLOUD.md
+
+# Logs
+*.log
+logs/
+
+# Debug files
+*.dmp
+*.stackdump
+
+# Cargo lock for libraries (keep for binaries)
+# Cargo.lock
+
+# OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Backup files
+*.backup
+*.bak
+*.old
